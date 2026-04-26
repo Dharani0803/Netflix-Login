@@ -37,7 +37,7 @@ const [loading, setLoading] = useState(false);
   setLoading(true);
 
   axios
-    .get(`http://localhost:5000/login?username=${user}&password=${pass}`)
+    .get(`https://netflix-login-pu5d.onrender.com/login?username=${user}&password=${pass}`)
     .then((res) => {
       if (res.data === true) {
         setTimeout(() => {
