@@ -83,7 +83,7 @@ const [loading, setLoading] = useState(false);
           </p>
 
           <p className="cursor-pointer underline">
-            Learn more about sign-in
+            Learn more about Sign-in
           </p>
         </div>)}
         <p className="text-xs font-semibold text-[#746d6e] mt-2 md:mt-5">This page is protected by Google reCAPTCHA to ensure you're not a bot.</p>
